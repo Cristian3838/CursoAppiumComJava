@@ -17,6 +17,13 @@ public class MenuPage extends BasePage{
 		
 		clicarNoElemento(By.xpath("//android.widget.TextView[@text='Splash']"));
 	}
-	
+
+	public void acessarMenuAlerta() {
+		clicarNoElemento(By.xpath("//android.widget.TextView[@text='Alertas']"));
+		
+	}
+
+
+
 	
 }
